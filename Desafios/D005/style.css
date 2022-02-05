@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: #AAB0B5;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0E1624 ;
+}
+ul{
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    color: #0E1624;
+}
+h2{
+   
+   color: #EEEC00;
+}
+li{
+    color: #EEEC00;
+}
+#contato{
+    color: blue;
+}

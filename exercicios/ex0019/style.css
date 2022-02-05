@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+/* id = #
+   class = .*/
+body{
+    background-color: dimgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: mistyrose;
+}
+h1#principal{
+    text-align: center;
+}
+
+h2{
+    color: peachpuff;
+}

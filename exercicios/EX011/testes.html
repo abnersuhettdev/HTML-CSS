@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+</head>
+<body>
+    <h1><mark style="background-color: mediumpurple;">Essa é a página de testes</mark></h1>
+    <hr>
+    <p><code>Testando 1..2..3..</code></p>
+    <hr>
+    <h2>Tamanhos de imagens</h2>
+   
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens-teste/pequena.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens-teste/media.png" type="image/png">
+        <img src="imagens-teste/grande.png" alt="Imagem flexivel">
+    </picture>
+        <h1>Vamos inserir um áudio</h1>
+        <p>Tocando Floating Home</p> 
+        <audio preload="metadata" controls 
+        autoplay loop>
+            <source src="midia/floating-home.mp3" type="audio/mp3">
+            <p><mark style="background-color: yellow;">Seu navegador não suporta o arquivo</mark>
+                <br>Para baixá lo Clique em <a href="midia/floating-home.mp3"><mark style="background-color: yellow;">download</mark></a>
+            </p>
+        </audio>
+</body>
+</html>
